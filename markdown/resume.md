@@ -2,7 +2,13 @@ Stan Guldemond
 ==============
 
 Full stack developer with a passion for creating easy to use, scalable, problem solving software
-------------------------------------
+------------------------------------------------------------------------------------------------
+
+**Highlights**
+
+- Currently: Lead developer at the [Object Detection Kit](https://www.odk.ai) project (see Projects)
+- Previously: [Presenting the Decode Digital Identity project in Turin, Italy](https://www.vimeo.com/384562767) (see Projects)
+
 
 ![](../assets/stan-amsterdam-2019_300x300.jpg)
 
@@ -19,12 +25,12 @@ Full stack developer with a passion for creating easy to use, scalable, problem 
 Stack
 -----
 
-- Python 3, [Flask](https://flask.palletsprojects.com/), [FastAPI](fastapi.tiangolo.com/), [SQLAlchemy](https://www.sqlalchemy.org/), [aio-pika](https://pypi.org/project/aio-pika/), [typing](https://docs.python.org/3/library/typing.html), [pytest](https://docs.pytest.org), PEP 8, virtual environments
-- PostgreSQL, [PostGIS](https://postgis.net/), (materialized) views, indexes, [pgAdmin](https://www.pgadmin.org/)
-- Docker, docker-compose, Docker networks
-- Linux, Ubuntu Desktop & Server, Git, bash, zsh, shell script, crontab
-- GitLab CI/CD pipelines
-- RabbitMQ, Nginx, Celery, VueJS, Node, VSCode, PyCharm, Git Flow
+- Python 3: [Flask](https://flask.palletsprojects.com/), [FastAPI](fastapi.tiangolo.com/), [SQLAlchemy](https://www.sqlalchemy.org/), [aio-pika](https://pypi.org/project/aio-pika/), [typing](https://docs.python.org/3/library/typing.html), [pytest](https://docs.pytest.org), PEP 8, virtual environments
+- PostgreSQL: [PostGIS](https://postgis.net/), [psql cli](https://www.postgresql.org/docs/9.2/app-psql.html), user management, foreign tables, (materialized) views, indexes, [pgAdmin](https://www.pgadmin.org/)
+- Docker: docker-compose, Docker networks
+- Linux: Ubuntu Desktop & Server, Git, bash, zsh, shell script, crontab
+- GitLab: CI/CD pipelines
+- More: RabbitMQ, Nginx, Celery, VueJS, Node, VSCode, PyCharm, Git Flow
 
 ----
 
@@ -76,10 +82,10 @@ Projects
 
 **Object Detection Kit**: Open source object recognition tool for municipalities to spot misplaced garbage in the streets and act on it quickly, even before citizens notice. My role and responsibilities:
 
-    - Lead developer: Code reviews, architecture design, communication with stackholders, user tests, hiring new developers, documentation
+    - Lead developer: Code reviews, architecture design, communication with stack holders, user tests, hiring new developers, documentation
     - Development: Python, VueJS, PostgreSQL
     - DevOps: GitLab CI, docker-compose, Ubuntu Server
-    - Hardware: Maintanence GPU servers for image recognition
+    - Hardware: Maintenance GPU servers for image recognition
 
 - [Project website](https://www.odk.ai)
 - [Open source repository](https://www.gitlab.com/odk/odk-stack)
@@ -91,7 +97,7 @@ Projects
     - Mobile app: VueJS PWA
     - Backend: Python Flask, Zenroom
 
-This project made money avaliable for continues research and development of the use of digital identity in the City of Amsterdam.
+This project made money available for continues research and development of the use of digital identity in the City of Amsterdam.
 
 - [Me presenting the project in Turin, Italy](https://www.vimeo.com/384562767)
 - [GitHub repository](https://www.github.com/Amsterdam/decode_passport_scanner)
@@ -119,6 +125,7 @@ Miscellaneous
 
 - Linux, coding useful tools for myself
 - Climbing, bouldering, long distance cycling, yoga, camping
-- Spirituality, mental health, films, music, reading, writing, drawing
+- Spirituality, mental health, sacred geometry
+- Films, music, reading, writing, drawing
 
 ----

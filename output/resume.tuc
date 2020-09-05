@@ -43,25 +43,28 @@ if not utilitydata.job.passes then utilitydata.job.passes = { } end
 
 utilitydata.job.passes.collected={
  ["itemgroup:itemize:1"]={
-  { 4, 0 },
+  { 2, 0 },
  },
  ["itemgroup:itemize:2"]={
-  { 6, 0 },
- },
- ["itemgroup:itemize:3"]={
-  { 3, 0 },
- },
- ["itemgroup:itemize:4"]={
   { 4, 0 },
  },
+ ["itemgroup:itemize:3"]={
+  { 6, 0 },
+ },
+ ["itemgroup:itemize:4"]={
+  { 3, 0 },
+ },
  ["itemgroup:itemize:5"]={
-  { 1, 0 },
+  { 4, 0 },
  },
  ["itemgroup:itemize:6"]={
-  { 3, 0 },
+  { 1, 0 },
  },
  ["itemgroup:itemize:7"]={
   { 3, 0 },
+ },
+ ["itemgroup:itemize:8"]={
+  { 4, 0 },
  },
 }
 
@@ -181,7 +184,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 4, 6, 3, 4, 1, 3, 3 },
+  { 0, 2, 4, 6, 3, 4, 1, 3, 4 },
  },
  ["linenote"]={
   { 0 },
@@ -352,7 +355,6 @@ if not utilitydata.structures.references then utilitydata.structures.references 
 
 utilitydata.structures.references.referred={
  { 1, 1 },
- { 2, 14 },
  { 3, 17 },
 }
 
