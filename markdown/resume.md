@@ -1,7 +1,7 @@
 Stan Guldemond
 ==============
 
-Full stack developer with a passion for creating easy to use, scalable, readable, problem solving software
+Full stack developer with a passion for creating easy to use, scalable, problem solving software
 ------------------------------------
 
 ![](../assets/stan-amsterdam-2019_300x300.jpg)
