@@ -1,0 +1,279 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=000000]
+\definecolor[sectioncolor][h=00008B]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=0mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Stan Guldemond},reference={stan-guldemond}]
+
+\subsection[title={Full stack developer with a passion for creating easy
+to use, scalable, readable, problem solving
+software},reference={full-stack-developer-with-a-passion-for-creating-easy-to-use-scalable-readable-problem-solving-software}]
+
+{\externalfigure[../assets/stan-amsterdam-2019_300x300.jpg]}
+
+\startitemize[packed]
+\item
+  \useURL[url1][mailto:stanguldemond@gmail.com][][stanguldemond@gmail.com]\from[url1]
+\item
+  +31625405664
+\item
+  Amsterdam, The Netherlands
+\item
+  \useURL[url2][https://www.linkedin.com/in/stan-guldemond-56291b120/][][LinkedIn]\from[url2],
+  \useURL[url3][https://github.com/sguldemond/][][GitHub]\from[url3],
+  \useURL[url4][https://gitlab.com/users/stanguldemond/contributed][][GitLab]\from[url4],
+  \useURL[url5][https://stackshare.io/sguldemond][][Stackshare]\from[url5]
+\stopitemize
+
+\thinrule
+
+\subsection[title={Stack},reference={stack}]
+
+\startitemize[packed]
+\item
+  Python 3,
+  \useURL[url6][https://flask.palletsprojects.com/][][Flask]\from[url6],
+  \useURL[url7][fastapi.tiangolo.com/][][FastAPI]\from[url7],
+  \useURL[url8][https://www.sqlalchemy.org/][][SQLAlchemy]\from[url8],
+  \useURL[url9][https://pypi.org/project/aio-pika/][][aio-pika]\from[url9],
+  \useURL[url10][https://docs.python.org/3/library/typing.html][][typing]\from[url10],
+  \useURL[url11][https://docs.pytest.org][][pytest]\from[url11], PEP 8,
+  virtual environments
+\item
+  PostgreSQL,
+  \useURL[url12][https://postgis.net/][][PostGIS]\from[url12],
+  (materialized) views, indexes,
+  \useURL[url13][https://www.pgadmin.org/][][pgAdmin]\from[url13]
+\item
+  Docker, docker-compose, Docker networks
+\item
+  Linux, Ubuntu Desktop & Server, Git, bash, zsh, shell script, crontab
+\item
+  GitLab CI/CD pipelines
+\item
+  RabbitMQ, Nginx, Celery, VueJS, Node, VSCode, PyCharm, Git Flow
+\stopitemize
+
+\thinrule
+
+\subsection[title={Experience},reference={experience}]
+
+2018-now: {\bf Full Stack Developer} // CTO Innovatieteam, City of
+Amsterdam (Amsterdam, The Netherlands)
+
+\starttyping
+Currently developing human centric tools, with a data driven approach, supporting the maintenance of the public space in Amsterdam. Working in a self managed multi disciplinary team with a focus to make things work, see 'Projects'.
+
+Previous activities include:
+- Designing + developing an Attribute Based Digital Identity prototype with a focus on data ownership and zero knowledge proof as part of the European Commission funded Decode program.
+- Maintaining & expending our infrastructure capabilities using Gutter (see Projects).
+\stoptyping
+
+2017: {\bf Software Engineer} // Ceron IT Solutions (Vught, The
+Netherlands)
+
+\starttyping
+- Developing and maintaining web application with Java EE backend
+- Implementing PrimeFaces framework frontend 
+\stoptyping
+
+2016: {\bf Student Assistent} // Fontys University of Applied Sciences
+(Eindhoven, The Netherlands)
+
+\starttyping
+Assisting part-time students, between the ages of 25 and 50, twice a week in the subject of object oriented programming focussing on the basics of programming in C# and software design. 
+\stoptyping
+
+2016: {\bf Teacher} // SintLucas (Eindhoven, The Netherlands)
+
+\starttyping
+Part of my bachelor's degree in software engineering. I got to teach young adults the basics of object oriented programming in C# and assist them in various other skills. 
+\stoptyping
+
+\thinrule
+
+\subsection[title={Education},reference={education}]
+
+2015-2019: {\bf Bachelor's Degree, Software Engineering} // Fontys
+University of Applied Sciences (Eindhoven, The Netherlands)
+
+\starttyping
+With software engineering I've learned to design software in an efficient and maintainable way. Next to this main focus I've had a introduction into teaching young adults and a introduction into designing software for mobile devices.
+\stoptyping
+
+2011-2013: {\bf Applied Psychology} // Fontys University of Applied
+Sciences (Eindhoven, The Netherlands)
+
+\starttyping
+Learning about the working of the human mind, conversation techniques and analysing social issues. Initiated a study group with classmates.
+\stoptyping
+
+2007-2011: {\bf MBO BOL-4, Graphic Design} // Grafisch Lyceum Rotterdam
+(Rotterdam, The Netherlands)
+
+\starttyping
+Graphic Design, Adobe Creative Suite, Desktop Publishing
+\stoptyping
+
+\thinrule
+
+\subsection[title={Projects},reference={projects}]
+
+{\bf Object Detection Kit}: Open source object recognition tool for
+municipalities to spot misplaced garbage in the streets and act on it
+quickly, even before citizens notice. My role and responsibilities:
+
+\starttyping
+- Lead developer: Code reviews, architecture design, communication with stackholders, user tests, hiring new developers, documentation
+- Development: Python, VueJS, PostgreSQL
+- DevOps: GitLab CI, docker-compose, Ubuntu Server
+- Hardware: Maintanence GPU servers for image recognition
+\stoptyping
+
+\startitemize[packed]
+\item
+  \useURL[url14][https://www.odk.ai][][Project website]\from[url14]
+\item
+  \useURL[url15][https://www.gitlab.com/odk/odk-stack][][Open source
+  repository]\from[url15]
+\item
+  \useURL[url16][https://www.gitlab.com/odk][][All ODK
+  projects]\from[url16]
+\stopitemize
+
+{\bf Decode Digital Identity}: Prototype for attribute based digital
+identity utilizing the data on a NFC readable passport. The different
+elements of this project I created:
+
+\starttyping
+- Passport scanner: Controlling NFC reader, camera and display using Python
+- Mobile app: VueJS PWA
+- Backend: Python Flask, Zenroom
+\stoptyping
+
+This project made money avaliable for continues research and development
+of the use of digital identity in the City of Amsterdam.
+
+\startitemize[packed]
+\item
+  \useURL[url17][https://www.vimeo.com/384562767][][Me presenting the
+  project in Turin, Italy]\from[url17]
+\item
+  \useURL[url18][https://www.github.com/Amsterdam/decode_passport_scanner][][GitHub
+  repository]\from[url18]
+\item
+  \useURL[url19][https://www.youtube.com/watch?v=p1KLvwV7oIM][][Quick
+  demo]\from[url19]
+\item
+  \useURL[url20][https://www.decodeproject.eu][][Decode
+  Project]\from[url20]
+\stopitemize
+
+{\bf Gutter}: Python based API generator, with build in ETL tooling,
+real time analytics, message queuing and more utilizing the power of
+PostgreSQL.
+
+\starttyping
+Build an analytics engine using Celery workers. It scheduled analytics jobs (Python pandas) and persisted the output data in a database (PostgreSQL) then automatically generated and deployed REST APIs (Flask). think Apache Airflow x Google Firebase.
+\stoptyping
+
+\startitemize[packed]
+\item
+  \useURL[url21][https://www.github.com/amsterdam/gutter][][Outdated
+  repository]\from[url21]
+\stopitemize
+
+\thinrule
+
+\subsection[title={Miscellaneous},reference={miscellaneous}]
+
+{\bf Languages}:
+
+\startitemize[packed]
+\item
+  Dutch (mother tongue)
+\item
+  English (professional, daily speaker)
+\item
+  Polish (beginner)
+\stopitemize
+
+{\bf Hobbies}
+
+\startitemize[packed]
+\item
+  Linux, coding useful tools for myself
+\item
+  Climbing, bouldering, long distance cycling, yoga, camping
+\item
+  Spirituality, mental health, films, music, reading, writing, drawing
+\stopitemize
+
+\thinrule
+
+\stoptext
