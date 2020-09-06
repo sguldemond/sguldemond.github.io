@@ -75,7 +75,7 @@ blockquote {
 
 /* Links */
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: darkblue;
 }
 a:hover, a:active {

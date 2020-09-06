@@ -88,7 +88,7 @@
   
   /* Links */
   a {
-      text-decoration: none;
+      text-decoration: underline;
       color: darkblue;
   }
   a:hover, a:active {
@@ -110,6 +110,7 @@
 </head>
 <body>
 <h1 id="stan-guldemond">Stan Guldemond</h1>
+<p>Curriculum Vitae // <a href="https://sguldemond.github.io" target="_blank">sguldemond.github.io</a></p>
 <h2 id="full-stack-developer-with-a-passion-for-creating-easy-to-use-scalable-problem-solving-software">Full stack developer with a passion for creating easy to use, scalable, problem solving software</h2>
 <p><strong>Highlights</strong></p>
 <ul>
@@ -121,13 +122,14 @@
 <li><a href="mailto:stanguldemond@gmail.com" class="email">stanguldemond@gmail.com</a></li>
 <li>+31625405664</li>
 <li>Amsterdam, The Netherlands</li>
+<li>Dutch, 29 y/o (1991)</li>
 <li><a href="https://www.linkedin.com/in/stan-guldemond-56291b120/" target="_blank">LinkedIn</a>, <a href="https://github.com/sguldemond/" target="_blank">GitHub</a>, <a href="https://gitlab.com/users/stanguldemond/contributed" target="_blank">GitLab</a>, <a href="https://stackshare.io/sguldemond" target="_blank">Stackshare</a></li>
 </ul>
 <hr />
 <h2 id="stack">Stack</h2>
 <ul>
-<li>Python 3: <a href="https://flask.palletsprojects.com/" target="_blank">Flask</a>, <a href="fastapi.tiangolo.com/">FastAPI</a>, <a href="https://www.sqlalchemy.org/" target="_blank">SQLAlchemy</a>, <a href="https://pypi.org/project/aio-pika/" target="_blank">aio-pika</a>, <a href="https://docs.python.org/3/library/typing.html" target="_blank">typing</a>, <a href="https://docs.pytest.org" target="_blank">pytest</a>, PEP 8, virtual environments</li>
-<li>PostgreSQL: <a href="https://postgis.net/" target="_blank">PostGIS</a>, <a href="https://www.postgresql.org/docs/9.2/app-psql.html" target="_blank">psql cli</a>, user management, foreign tables, (materialized) views, indexes, <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a></li>
+<li>Python 3: <a href="https://flask.palletsprojects.com/" target="_blank">Flask</a>, <a href="fastapi.tiangolo.com/">FastAPI</a>, <a href="https://www.sqlalchemy.org/" target="_blank">SQLAlchemy</a>, <a href="https://pypi.org/project/aio-pika/" target="_blank">aio-pika</a>, <a href="https://docs.python.org/3/library/typing.html" target="_blank">typing</a>, <a href="https://docs.pytest.org" target="_blank">pytest</a>, async, PEP 8, virtual environments</li>
+<li>PostgreSQL: <a href="https://postgis.net/" target="_blank">PostGIS</a>, <a href="https://www.postgresql.org/docs/9.2/app-psql.html" target="_blank">psql cli</a>, user management, (materialized) views, indexes, foreign tables, <a href="https://www.pgadmin.org/" target="_blank">pgAdmin</a></li>
 <li>Docker: docker-compose, Docker networks</li>
 <li>Linux: Ubuntu Desktop &amp; Server, Git, bash, zsh, shell script, crontab</li>
 <li>GitLab: CI/CD pipelines</li>
@@ -135,7 +137,7 @@
 </ul>
 <hr />
 <h2 id="experience">Experience</h2>
-<p>2018-now: <strong>Full Stack Developer</strong> // CTO Innovatieteam, City of Amsterdam (Amsterdam, The Netherlands)</p>
+<p>2018-now: <strong>Full Stack Developer</strong> // <a href="https://amsterdam.nl/innovatie" target="_blank">CTO Innovatieteam, City of Amsterdam</a> (Amsterdam, The Netherlands)</p>
 <pre><code>Currently developing human centric tools, with a data driven approach, supporting the maintenance of the public space in Amsterdam. Working in a self managed multi disciplinary team with a focus to make things work, see &#39;Projects&#39;.
 
 Previous activities include:
@@ -159,10 +161,10 @@ Previous activities include:
 <hr />
 <h2 id="projects">Projects</h2>
 <p><strong>Object Detection Kit</strong>: Open source object recognition tool for municipalities to spot misplaced garbage in the streets and act on it quickly, even before citizens notice. My role and responsibilities:</p>
-<pre><code>- Lead developer: Code reviews, architecture design, communication with stackholders, user tests, hiring new developers, documentation
-- Development: Python, VueJS, PostgreSQL
-- DevOps: GitLab CI, docker-compose, Ubuntu Server
-- Hardware: Maintanence GPU servers for image recognition</code></pre>
+<pre><code>- Lead developer: Code reviews, architecture design, communication with stack holders, user tests, hiring new developers, documentation
+- Development: Python, VueJS, PostgreSQL, RabbitMQ
+- Deployment: GitLab CI, docker-compose, Ubuntu Server
+- Hardware: Maintenance GPU servers for image recognition</code></pre>
 <ul>
 <li><a href="https://www.odk.ai" target="_blank">Project website</a></li>
 <li><a href="https://www.gitlab.com/odk/odk-stack" target="_blank">Open source repository</a></li>
@@ -172,7 +174,7 @@ Previous activities include:
 <pre><code>- Passport scanner: Controlling NFC reader, camera and display using Python
 - Mobile app: VueJS PWA
 - Backend: Python Flask, Zenroom</code></pre>
-<p>This project made money avaliable for continues research and development of the use of digital identity in the City of Amsterdam.</p>
+<p>This project made money available for <a href="https://www.amsterdam.nl/wonen-leefomgeving/innovatie/de-digitale-stad/onderzoek-digitale-identiteit/" target="_blank">continues research and development</a> of the use of digital identity in the City of Amsterdam.</p>
 <ul>
 <li><a href="https://www.vimeo.com/384562767" target="_blank">Me presenting the project in Turin, Italy</a></li>
 <li><a href="https://www.github.com/Amsterdam/decode_passport_scanner" target="_blank">GitHub repository</a></li>
@@ -180,7 +182,7 @@ Previous activities include:
 <li><a href="https://www.decodeproject.eu" target="_blank">Decode Project</a></li>
 </ul>
 <p><strong>Gutter</strong>: Python based API generator, with build in ETL tooling, real time analytics, message queuing and more utilizing the power of PostgreSQL.</p>
-<pre><code>Build an analytics engine using Celery workers. It scheduled analytics jobs (Python pandas) and persisted the output data in a database (PostgreSQL) then automatically generated and deployed REST APIs (Flask). think Apache Airflow x Google Firebase.</code></pre>
+<pre><code>Build an analytics engine using Celery workers. It scheduled analytics jobs (Python pandas) and persisted the output data in a database (PostgreSQL) then automatically generated and deployed REST APIs (Flask). Think: Apache Airflow x Google Firebase.</code></pre>
 <ul>
 <li><a href="https://www.github.com/amsterdam/gutter" target="_blank">Outdated repository</a></li>
 </ul>
@@ -194,7 +196,7 @@ Previous activities include:
 </ul>
 <p><strong>Hobbies</strong></p>
 <ul>
-<li>Linux, coding useful tools for myself</li>
+<li>Linux, coding fun and useful tools for myself</li>
 <li>Climbing, bouldering, long distance cycling, yoga, camping</li>
 <li>Spirituality, mental health, sacred geometry</li>
 <li>Films, music, reading, writing, drawing</li>

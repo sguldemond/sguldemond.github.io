@@ -1,6 +1,8 @@
 Stan Guldemond
 ==============
 
+Curriculum Vitae // [sguldemond.github.io](https://sguldemond.github.io)
+
 Full stack developer with a passion for creating easy to use, scalable, problem solving software
 ------------------------------------------------------------------------------------------------
 
@@ -15,6 +17,7 @@ Full stack developer with a passion for creating easy to use, scalable, problem 
 * <stanguldemond@gmail.com>
 * +31625405664
 * Amsterdam, The Netherlands
+* Dutch, 29 y/o (1991)
 * [LinkedIn](https://www.linkedin.com/in/stan-guldemond-56291b120/), 
 [GitHub](https://github.com/sguldemond/),
 [GitLab](https://gitlab.com/users/stanguldemond/contributed),
@@ -25,8 +28,8 @@ Full stack developer with a passion for creating easy to use, scalable, problem 
 Stack
 -----
 
-- Python 3: [Flask](https://flask.palletsprojects.com/), [FastAPI](fastapi.tiangolo.com/), [SQLAlchemy](https://www.sqlalchemy.org/), [aio-pika](https://pypi.org/project/aio-pika/), [typing](https://docs.python.org/3/library/typing.html), [pytest](https://docs.pytest.org), PEP 8, virtual environments
-- PostgreSQL: [PostGIS](https://postgis.net/), [psql cli](https://www.postgresql.org/docs/9.2/app-psql.html), user management, foreign tables, (materialized) views, indexes, [pgAdmin](https://www.pgadmin.org/)
+- Python 3: [Flask](https://flask.palletsprojects.com/), [FastAPI](fastapi.tiangolo.com/), [SQLAlchemy](https://www.sqlalchemy.org/), [aio-pika](https://pypi.org/project/aio-pika/), [typing](https://docs.python.org/3/library/typing.html), [pytest](https://docs.pytest.org), async, PEP 8, virtual environments
+- PostgreSQL: [PostGIS](https://postgis.net/), [psql cli](https://www.postgresql.org/docs/9.2/app-psql.html), user management, (materialized) views, indexes, foreign tables, [pgAdmin](https://www.pgadmin.org/)
 - Docker: docker-compose, Docker networks
 - Linux: Ubuntu Desktop & Server, Git, bash, zsh, shell script, crontab
 - GitLab: CI/CD pipelines
@@ -37,7 +40,7 @@ Stack
 Experience
 ----------
 
-2018-now: **Full Stack Developer** // CTO Innovatieteam, City of Amsterdam (Amsterdam, The Netherlands)
+2018-now: **Full Stack Developer** // [CTO Innovatieteam, City of Amsterdam](https://amsterdam.nl/innovatie) (Amsterdam, The Netherlands)
 
     Currently developing human centric tools, with a data driven approach, supporting the maintenance of the public space in Amsterdam. Working in a self managed multi disciplinary team with a focus to make things work, see 'Projects'.
 
@@ -83,8 +86,8 @@ Projects
 **Object Detection Kit**: Open source object recognition tool for municipalities to spot misplaced garbage in the streets and act on it quickly, even before citizens notice. My role and responsibilities:
 
     - Lead developer: Code reviews, architecture design, communication with stack holders, user tests, hiring new developers, documentation
-    - Development: Python, VueJS, PostgreSQL
-    - DevOps: GitLab CI, docker-compose, Ubuntu Server
+    - Development: Python, VueJS, PostgreSQL, RabbitMQ
+    - Deployment: GitLab CI, docker-compose, Ubuntu Server
     - Hardware: Maintenance GPU servers for image recognition
 
 - [Project website](https://www.odk.ai)
@@ -97,7 +100,7 @@ Projects
     - Mobile app: VueJS PWA
     - Backend: Python Flask, Zenroom
 
-This project made money available for continues research and development of the use of digital identity in the City of Amsterdam.
+This project made money available for [continues research and development](https://www.amsterdam.nl/wonen-leefomgeving/innovatie/de-digitale-stad/onderzoek-digitale-identiteit/) of the use of digital identity in the City of Amsterdam.
 
 - [Me presenting the project in Turin, Italy](https://www.vimeo.com/384562767)
 - [GitHub repository](https://www.github.com/Amsterdam/decode_passport_scanner)
@@ -106,7 +109,7 @@ This project made money available for continues research and development of the 
 
 **Gutter**: Python based API generator, with build in ETL tooling, real time analytics, message queuing and more utilizing the power of PostgreSQL.
 
-    Build an analytics engine using Celery workers. It scheduled analytics jobs (Python pandas) and persisted the output data in a database (PostgreSQL) then automatically generated and deployed REST APIs (Flask). think Apache Airflow x Google Firebase.
+    Build an analytics engine using Celery workers. It scheduled analytics jobs (Python pandas) and persisted the output data in a database (PostgreSQL) then automatically generated and deployed REST APIs (Flask). Think: Apache Airflow x Google Firebase.
 
 - [Outdated repository](https://www.github.com/amsterdam/gutter)
 
@@ -123,7 +126,7 @@ Miscellaneous
 
 **Hobbies**
 
-- Linux, coding useful tools for myself
+- Linux, coding fun and useful tools for myself
 - Climbing, bouldering, long distance cycling, yoga, camping
 - Spirituality, mental health, sacred geometry
 - Films, music, reading, writing, drawing
